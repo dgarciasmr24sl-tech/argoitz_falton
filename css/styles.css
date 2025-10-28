@@ -1,41 +1,85 @@
 body {
   background-color: #0d1117;
-  color: #e6edf3;
+  color: #f0f6fc;
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 2px solid #58a6ff;
 }
 
 h1 {
-  text-align: center;
   color: #58a6ff;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #c9d1d9;
+  margin: 0 auto;
+}
+
+.lista-juegos {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 30px;
+}
+
+section {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  padding: 15px;
+  width: 300px;
 }
 
 h2 {
   color: #ff7b72;
 }
 
-h3 {
-  color: #79c0ff;
-}
-
-p {
-  line-height: 1.4;
-}
-
-img {
-  width: 300px;
-  display: block;
+section img {
+  width: 100%;
   margin-bottom: 10px;
-  border-radius: 8px;
+}
+
+section p {
+  margin-bottom: 10px;
 }
 
 ul {
   list-style-type: square;
+  padding-left: 20px;
+}
+
+.menciones {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.menciones h3 {
+  color: #79c0ff;
+  margin-bottom: 10px;
+}
+
+.menciones ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menciones li {
+  margin: 8px 0;
 }
 
 footer {
   text-align: center;
-  margin-top: 30px;
-  font-size: 0.9em;
   color: #8b949e;
+  padding: 15px;
+  border-top: 2px solid #58a6ff;
 }
